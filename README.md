@@ -53,6 +53,20 @@ see [build.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/buil
 
 see [result.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/result.log.txt)
 
+# Time #
+
+Hadoop work on 8x nodes: 2x Dual-core AMD Opteron 285 2.6 GHz, 8 GB RAM, 150 GB HDD.
+
+* Files *  
+ - `/data/twitter/twitter_rv.net` - 24.4 G
+ - `/user/s0073/count` - 35.6 M * 13 (parts 00000 - 00012)
+
+* Time *  
+ - `TwitterFollowerCounter` - 22:32:52 - 23:02:35 (0:29:43)
+ - `TwitterAvgFollowers` - 23:02:43 - 23:04:24 (0:01:41)
+ - `TwitterTopFollowers` - 23:04:31 - 23:06:50 (0:02:19)
+ - `TwitterFollowerCounterGroupByRanges` - 23:06:57 - 23:08:06 (0:01:09)
+
 
 # Other #
 

@@ -82,7 +82,7 @@
 [127.0.0.1:28252] out: Moved: 'hdfs://umu30.um64.imm.uran.ru:8020/user/s0073/range' to trash at: hdfs://umu30.um64.imm.uran.ru:8020/user/s0073/.Trash/Current
 [127.0.0.1:28252] out:
 
-[127.0.0.1:28252] run: cd hadoop && hadoop jar target/hhd-1.0-SNAPSHOT.jar TwitterAvg /data/twitter/twitter_rv.net /user/s0073/count
+[127.0.0.1:28252] run: cd hadoop && hadoop jar target/hhd-1.0-SNAPSHOT.jar TwitterFollowerCounter /data/twitter/twitter_rv.net /user/s0073/count
 [127.0.0.1:28252] out: 15/01/16 22:32:49 INFO client.RMProxy: Connecting to ResourceManager at umu30.um64.imm.uran.ru/192.168.1.30:8032
 [127.0.0.1:28252] out: 15/01/16 22:32:50 INFO client.RMProxy: Connecting to ResourceManager at umu30.um64.imm.uran.ru/192.168.1.30:8032
 [127.0.0.1:28252] out: 15/01/16 22:32:50 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with

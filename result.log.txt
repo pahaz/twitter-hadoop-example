@@ -1,12 +1,3 @@
-[s0073@umu30 hadoop]$ hadoop fs -cat /user/s0073/range/*
-1       1
-100     1
-10      1
-[s0073@umu30 hadoop]$ hadoop fs -cat /user/s0073/range/*
-100     1
-10      2
-[s0073@umu30 hadoop]$ hadoop fs -cat /user/s0073/avg/*
-cat: `/user/s0073/avg/*': No such file or directory
 [s0073@umu30 hadoop]$ hadoop fs -cat /user/s0073/avg/*
 0       60.721367
 [s0073@umu30 hadoop]$ hadoop fs -cat /user/s0073/top/*
