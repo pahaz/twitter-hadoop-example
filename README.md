@@ -2,6 +2,13 @@
 
 Java example of analyzing twitter data with hadoop map reduce.
 
+ - `TwitterFollowerCounter` - evaluate number of followers per user
+ - `TwitterAvgFollowers` - evaluate average number of followers per all users
+ - `TwitterTopFollowers` - evaluate to 50 users by number of followers
+ - `TwitterFollowerCounterGroupByRanges` - evaluate number of followers in ranges [1 .. 10], [11, 100], [101, 1000], ...
+
+As you can see in [build.log]() and [result.log](), the most followed person is user 16409683 - @britneyspears (according to 2011).
+
 # Source Data format
 `/data/twitter/twitter_rv.net` contains strings like `user_id \t follower_id` (without spaces around \t)
 
