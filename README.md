@@ -36,3 +36,9 @@ Java example of analyzing twitter data with hadoop map reduce.
     hadoop fs -cat /user/s0073/avg/*
     hadoop fs -cat /user/s0073/top/*
     hadoop fs -cat /user/s0073/range/*
+
+## Other
+
+Sometime you need up hadoop job priority. Use this command:
+
+    mapred job -set-priority <job_id> VERY_HIGH
