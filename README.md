@@ -5,7 +5,7 @@ Java example of analyzing twitter data with Apache Hadoop MapReduce.
  - `TwitterFollowerCounter` - evaluate number of followers per user
  - `TwitterAvgFollowers` - evaluate average number of followers per all users
  - `TwitterTopFollowers` - evaluate to 50 users by number of followers
- - `TwitterFollowerCounterGroupByRanges` - evaluate number of followers in ranges [1 .. 10], [11, 100], [101, 1000], ...
+ - `TwitterFollowerCounterGroupByRanges` - evaluate number of followers in ranges [1 .. 10], [11 .. 100], [101 .. 1000], ...
 
 As you can see in [build.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/build.log.txt) and [result.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/result.log.txt), the most followed person is user 16409683 - @britneyspears (according to 2011).
 
